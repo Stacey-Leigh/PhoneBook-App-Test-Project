@@ -18,8 +18,6 @@
              data-test="search-input" />
     </div>
 
-    <!-- Removed loading spinner completely -->
-
     <div v-if="error"
          class="alert alert-danger"
          data-test="error-message">
@@ -67,7 +65,7 @@
     data() {
       return {
         contacts: [],
-        error: null,  // Removed loading state
+        error: null, 
         searchQuery: ''
       }
     },
