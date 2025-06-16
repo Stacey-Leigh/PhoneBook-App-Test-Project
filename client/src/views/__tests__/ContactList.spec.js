@@ -15,7 +15,7 @@ describe('ContactList', () => {
     const wrapper = mount(ContactList, {
       global: {
         stubs: {
-          'router-link': true // Stub router-link component
+          'router-link': true 
         }
       }
     })
